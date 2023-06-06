@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  wabdocker:
+    image: ${DOCKER_REGISTRY-}wabdocker
+    build:
+      context: .
+      dockerfile: wabdocker/Dockerfile

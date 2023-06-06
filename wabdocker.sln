@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wabdocker", "wabdocker\wabdocker.csproj", "{6F4A695B-9A95-4663-B886-2564B23A68D8}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{BCE278ED-A58E-43AE-A93B-E0DF807AE5AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6F4A695B-9A95-4663-B886-2564B23A68D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F4A695B-9A95-4663-B886-2564B23A68D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F4A695B-9A95-4663-B886-2564B23A68D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F4A695B-9A95-4663-B886-2564B23A68D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE278ED-A58E-43AE-A93B-E0DF807AE5AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE278ED-A58E-43AE-A93B-E0DF807AE5AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE278ED-A58E-43AE-A93B-E0DF807AE5AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE278ED-A58E-43AE-A93B-E0DF807AE5AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6575F87B-F684-4206-A001-A2C65B23DD4C}
+	EndGlobalSection
+EndGlobal
