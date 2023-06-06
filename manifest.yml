@@ -1,0 +1,5 @@
+applications:
+- name: sample-aspnetcore-app
+  memory: 512M
+  env:
+    CACHE_NUGET_PACKAGES: false
